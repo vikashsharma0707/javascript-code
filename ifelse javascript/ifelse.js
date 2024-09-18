@@ -13,3 +13,16 @@ if(a>b){
 else{
     console.log("B is greater")
 }
+
+
+
+var name  = "jay";
+var gender = "male"
+
+if(gender == "male"){
+    console.log("hello "+ name)
+}
+
+else{
+    console.log("hello female "+ name) 
+}
