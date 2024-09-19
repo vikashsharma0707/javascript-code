@@ -1,7 +1,7 @@
 
 
 
-
+// else if statemnt
 var per = 80;
 
 if(per>= 90 && per<=95){
