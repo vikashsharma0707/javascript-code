@@ -1,0 +1,17 @@
+
+{
+    "data":[
+
+{
+    "token": "your_jwt_token",
+    "message": "Login successful"
+  },
+  
+
+  {
+    "message": "Invalid username or password"
+  }
+
+]
+}
+  
