@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- class selector -->
+
+    <script>
+        $(document).ready(function(){
+            $("#btn1").dblclick(function(){
+                $("div").hide(2000)
+            })
+        })
+
+        $(document).ready(function(){
+            $("#btn2").mouseenter(function(){
+                $("div").hide(2000)
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#btn3").mouseleave(function(){
+                $("div").hide(2000)
+            })
+        })
+
+        $(document).ready(function(){
+            $("#btn3").mousedown(function(){
+                $("div").hide(2000)
+            })
+        })
+
+        $(document).ready(function(){
+            $("#btn3").mouseup(function(){
+                $("div").hide(2000)
+            })
+        })
+    </script>
+  </head>
+  <body>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi
+      illum, excepturi laborum sunt praesentium? Fugiat laudantium animi
+      consequuntur doloribus, modi veritatis nisi repellat cupiditate provident
+      tempora. Totam, dolorem commodi?
+    </div>
+
+    <button id="btn1">Click here</button>
+    <button id="btn2">click here</button>
+    <button  id="btn3">click here</button>
+    <button  id="btn4">click here</button>
+    <button  id="btn5">click here</button>
+  </body>
+</html>
