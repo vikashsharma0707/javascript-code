@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("input").focus(function(){
+                $(this).css("background_color","yellow")
+            })
+
+
+            $("input").blur(function(){
+                $(this).css("background-color","blue")
+            })
+        })
+
+    
+            
+    
+    </script>
+</head>
+<body>
+    Enter name :<input type="text"   id=""/><br/>
+    Enter age :<input type="text" id="" /><br/>
+    Enter city :<input type="text"  id=""/><br/>
+    Enter subject :<input type="text" id="" /><br/>
+</body>
+</html>
